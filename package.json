@@ -2,7 +2,7 @@
     "name": "dbgate-plugin-highlight",
     "version": "1.0.0",
     "license": "MIT",
-    "description": "Fill description and icon link ![icon](./icon.svg)",
+    "description": "Fill description and icon link ![icon](https://github.com/JiaZombie/dbgate-plugin-highlight/blob/main/icon.svg)",
     "author": "jzb",
     
     "keywords": [
