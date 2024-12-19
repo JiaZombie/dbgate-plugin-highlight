@@ -1,0 +1,29 @@
+{
+    "name": "dbgate-plugin-highlight",
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "Fill description and icon link ![icon](./icon.svg)",
+    "author": "jzb",
+    
+    "keywords": [
+      "dbgate",
+      "dbgatetheme",
+      "dbgateplugin"
+    ],
+    "files": [
+      "dist"
+    ],
+    "scripts": {
+      "build": "webpack --config webpack.config",
+      "plugin": "npm run build && npm pack && dbgate-plugin dbgate-plugin-highlight",
+      "plugout": "dbgate-plugout dbgate-plugin-highlight",
+      "copydist": "yarn build && yarn pack && dbgate-copydist ../dist/dbgate-plugin-highlight",
+      "prepublishOnly": "npm run build"
+    },
+    "devDependencies": {
+      "dbgate-plugin-tools": "^1.0.8",
+      "webpack": "^4.42.0",
+      "webpack-cli": "^3.3.11"
+    }
+  }
+  
