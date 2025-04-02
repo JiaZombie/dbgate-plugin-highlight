@@ -39,7 +39,7 @@ const theme = {
 
     --theme-border: #333333;
 
-    --theme-bg-hover: #2A2D2E;
+    --theme-bg-hover: #404648;
     --theme-bg-selected: #858585;
     --theme-bg-selected-point: #03376e;
     --theme-bg-statusbar-inv: #1E1E1E;
@@ -96,7 +96,7 @@ const theme = {
   }
   input{
       outline:none;
-      border:1px solid var(--theme-bg-inv-3) !important;
+      border: 1px solid var(--theme-bg-selected) !important;
     }
   input:focus{    
     border:1px solid var(--theme-icon-yellow) !important;
@@ -125,6 +125,7 @@ const theme = {
     color: var(--theme-bg-selected);
   }
   .file-tab-item.selected.svelte-1wtfihm {border-bottom: 4px solid var(--theme-icon-blue);}
+  .file-tab-item.selected{color: var(--theme-icon-yellow);border-bottom: 2px solid;}
   .ace_editor{
     background-color: var(--theme-bg-0);
   }
