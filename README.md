@@ -9,7 +9,9 @@ Use DbGate for install of this plugin
 - 删除线改成更明显的红色
 - 当前选中标签页增加明显颜色的下边框
 - 选中输入框增加明显边框颜色
-- 鼠标 *hover* 行或选中行整行高亮
+- 鼠标 *hover* 行或选中行整行高亮  
+
+
 ![screenshot](https://raw.githubusercontent.com/JiaZombie/dbgate-plugin-highlight/main/screenshot.png)  
 ![screenshot2](https://raw.githubusercontent.com/JiaZombie/dbgate-plugin-highlight/main/screenshot2.png)  
 ![screenshot3](https://raw.githubusercontent.com/JiaZombie/dbgate-plugin-highlight/main/screenshot3.png)  
